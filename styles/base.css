@@ -1,5 +1,9 @@
+html{
+    background-color: dodgerblue;
+}
+
 body{
-    background-color: pink;
+    background-color: lightblue;
     margin: 0 auto;
     max-width: 1200px;
 }

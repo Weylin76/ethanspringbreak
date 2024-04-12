@@ -5,17 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/mikesIdeas.js" defer></script>
+    <script src="scripts/possibleIdeas.js" defer></script>
+    <script src="scripts/mikesIdeas.js"></script>
     <title>Ethan's Spring Break 2025</title>
 </head>
 
 <body>
     <h1>Ethan's Spring Break 2025</h1>
 
-    <table id="mikesIdeas">
+    <h2>Mike's Great Ideas</h2>
+    <input type="text" id="mikesIdea" placeholder="Another great idea from Mike!">
+    <button id="mikeBtn">Mike's Great Ideas</button>
+
+    <h2>Possilble Ideas</h2>
+    <input type="text" id="newIdea" placeholder="Enter your idea">
+    <button onclick="addIdea()">Add Idea</button>
+
+    <table id="possibleIdeas">
         <thead>
             <tr>
-                <th>Idea</th>
+                <th id="idea">Idea</th>
                 <th>Delete</th>
             </tr>
         <tbody>
